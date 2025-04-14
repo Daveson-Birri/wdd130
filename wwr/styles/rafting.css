@@ -127,11 +127,23 @@ header img {
 
 }
 
+.adventure figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 .adventure img {
-    width: 25%;
+    width: 250px;
     height: auto;
     margin: 20px;
-    border-radius: 8px;
+    border-radius: 2px;
+    object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: var(--secondary-color);
